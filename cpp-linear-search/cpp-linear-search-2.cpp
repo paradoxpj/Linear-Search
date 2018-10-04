@@ -21,7 +21,7 @@ int main()
         cin>>a;
         vec.push_back(a);
     }
-    for(it=vec.begin();it!=vec.end();it++) //Comparing each element with key
+    for(it=vec.begin();it!=vec.end();it++)
     {
         if((*it)==key)
         {
